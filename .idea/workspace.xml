@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b24c643a-8ce8-498d-8b71-a967aea60db3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lcbo_db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +38,28 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.lcbo_db">
+    <configuration name="lcbo_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="beer-me" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lcbo_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="prototype" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="beer-me" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lcbo_db" />
         <item itemvalue="Python.prototype" />
       </list>
     </recent_temporary>
@@ -104,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626561226262</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Hello world prototype">
+      <created>1626561359552</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626561359552</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,17 +153,18 @@
     <MESSAGE value="Commit a .py file" />
     <MESSAGE value="Commit a .py file, attempt 2" />
     <MESSAGE value="Commit a .py file, attempt 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit a .py file, attempt 3" />
+    <MESSAGE value="Hello world prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hello world prototype" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626560628211">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626560628211" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1626561225336">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1626561358730">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626561225336" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626561358730" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1626560827845">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -146,26 +177,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="511" y="234" key="Github.ShareDialog/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626560866570" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1626561326475">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1626647005295">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626561326475" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1626561326475">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626647005295" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1626647005295">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626561326475" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1626561326474">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626647005295" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1626647005294">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626561326474" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1626561326475">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626647005294" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1626647005295">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626561326475" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1626560711597">
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626647005295" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1626646900811">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626560711597" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626646900811" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1626561464285">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680/-2560.0.2048.1112@0.0.1280.680" timestamp="1626561464285" />
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1626560342886">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
